@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_cicd_pipeline_train_schedule_gradle_1693250788355-pr-trigger-input-set
+  identifier: Build_cicd_pipeline_train_schedule_gradle_1693250788355prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Jahanzeb
+  pipeline:
+    identifier: Build_cicd_pipeline_train_schedule_gradle_1693250788355
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
